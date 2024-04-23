@@ -10,4 +10,4 @@ The script can be run on powershell
 ```
 powershell ./remove-blank-pages input-with-blank-pages.pdf output-without-blank-pages.pdf extracted-blank-pages.pdf
 ```
-The ink coverage threshold (CMYK values) determining if a page is considered blank or not is defined in line 7 of the script. Feel free to adjust it to the sensitivity of the scanner if the results are not satisfactorily.
+The ink coverage threshold (CMYK values) determining if a page is considered blank or not is defined in line 42 of the script. Feel free to adjust it to the sensitivity of the scanner if the results are not satisfactorily.
